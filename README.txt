@@ -1,3 +1,6 @@
+## Patch
+Base OpenSlide has a memory leak due to file cacheing. This version stores no cache and thus large amounts of slides can be loaded and reloaded without worry of depleting memory.
+
 OpenSlide
 
 Carnegie Mellon University and others
