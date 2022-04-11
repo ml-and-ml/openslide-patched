@@ -8,15 +8,15 @@ https://openslide.org/
 
 ## How to build?
 
-Install `autoconf, automake, libtool, and pkg-config` using pip
-`autoreconf -i`
-`./configure`
-`make`
-`make install`
+Install `autoconf, automake, libtool, and pkg-config` using pip<br/>
+`autoreconf -i`<br/>
+`./configure`<br/>
+`make`<br/>
+`make install`<br/>
 
 Update paths:
 
-`export PATH=/${HOME}/*/bin:/${HOME}/*/lib:$PATH`
-`export LD_LIBRARY_PATH=/${HOME}/*/lib:$LD_LIBRARY_PATH`
+`export PATH=/${HOME}/*/bin:/${HOME}/*/lib:$PATH`<br/>
+`export LD_LIBRARY_PATH=/${HOME}/*/lib:$LD_LIBRARY_PATH`<br/>
 `export LIBRARY_PATH=/${HOME}/*/lib:$LIBRARY_PATH`
 
