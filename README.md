@@ -8,16 +8,15 @@ https://openslide.org/
 
 ## How to build?
 
+Install `autoconf, automake, libtool, and pkg-config` using pip
+`autoreconf -i`
 `./configure`
 `make`
 `make install`
 
-(If building from the Git repository, you will first need to install
-autoconf, automake, libtool, and pkg-config and run "autoreconf -i".)
-
 Update paths:
 
-`export PATH=/home/user/temp-install/*/bin:/home/ec2-user/temp-install/openslide-3.4.1/lib:$PATH`
-`export LD_LIBRARY_PATH=/home/user/*/openslide-3.4.1/lib:$LD_LIBRARY_PATH`
-`export LIBRARY_PATH=/home/user/*/openslide-3.4.1/lib:$LIBRARY_PATH`
+`export PATH=/${HOME}/*/bin:/${HOME}/*/lib:$PATH`
+`export LD_LIBRARY_PATH=/${HOME}/*/lib:$LD_LIBRARY_PATH`
+`export LIBRARY_PATH=/${HOME}/*/lib:$LIBRARY_PATH`
 
